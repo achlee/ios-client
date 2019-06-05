@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21AF9E85799967F5A8D4DF90 /* Pods_MathpixClient_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F7E21FE8FEE66311F11913 /* Pods_MathpixClient_Example.framework */; };
 		2C35622F1F625E5800B2E2B4 /* SimpleCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35622E1F625E5800B2E2B4 /* SimpleCameraViewController.swift */; };
 		2C3562311F62625F00B2E2B4 /* CustomCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3562301F62625F00B2E2B4 /* CustomCameraViewController.swift */; };
 		2C3562371F63D55200B2E2B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C3562361F63D55200B2E2B4 /* Localizable.strings */; };
-		44DB0AB3A13588FE38642C8D /* Pods_MathpixClient_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DE88B42EE2F86B77AF7F12 /* Pods_MathpixClient_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* RecognizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* RecognizeViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		BB593B20DD37BDEA9199E3DF /* Pods_MathpixClient_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B269B7B273A16C10B35856 /* Pods_MathpixClient_Example.framework */; };
+		EE6708E1A40F1881D9D861E8 /* Pods_MathpixClient_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BB6E652B8557873F4DD022 /* Pods_MathpixClient_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 		2C3562301F62625F00B2E2B4 /* CustomCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCameraViewController.swift; sourceTree = "<group>"; };
 		2C3562361F63D55200B2E2B4 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		346DF766F12E5555C5EBD968 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3B58A278D890C508B5BFD66F /* Pods-MathpixClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathpixClient_Example.release.xcconfig"; path = "Target Support Files/Pods-MathpixClient_Example/Pods-MathpixClient_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MathpixClient_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathpixClient_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,12 +47,11 @@
 		607FACE51AFB9204008FA782 /* MathpixClient_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathpixClient_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		70DE88B42EE2F86B77AF7F12 /* Pods_MathpixClient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathpixClient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C14E1F923D47069F42A9C5F /* Pods-MathpixClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathpixClient_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathpixClient_Example/Pods-MathpixClient_Example.release.xcconfig"; sourceTree = "<group>"; };
-		91B269B7B273A16C10B35856 /* Pods_MathpixClient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathpixClient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4CA1DE593284466B66607D2 /* Pods-MathpixClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathpixClient_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathpixClient_Example/Pods-MathpixClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C5D17DF8144B543A1C962B48 /* Pods-MathpixClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathpixClient_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathpixClient_Tests/Pods-MathpixClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D2E7B30C9BC4FE1277304B32 /* Pods-MathpixClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathpixClient_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathpixClient_Tests/Pods-MathpixClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6C263ADC95D8B9B2D4088DFC /* Pods-MathpixClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathpixClient_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MathpixClient_Tests/Pods-MathpixClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EBEA002569D5886B1A21143 /* Pods-MathpixClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathpixClient_Example.debug.xcconfig"; path = "Target Support Files/Pods-MathpixClient_Example/Pods-MathpixClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC94F0CF74DE44075E48DA34 /* Pods-MathpixClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathpixClient_Tests.release.xcconfig"; path = "Target Support Files/Pods-MathpixClient_Tests/Pods-MathpixClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C2BB6E652B8557873F4DD022 /* Pods_MathpixClient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathpixClient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F7E21FE8FEE66311F11913 /* Pods_MathpixClient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathpixClient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF00EB9567CE054D068200CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB593B20DD37BDEA9199E3DF /* Pods_MathpixClient_Example.framework in Frameworks */,
+				21AF9E85799967F5A8D4DF90 /* Pods_MathpixClient_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44DB0AB3A13588FE38642C8D /* Pods_MathpixClient_Tests.framework in Frameworks */,
+				EE6708E1A40F1881D9D861E8 /* Pods_MathpixClient_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +82,8 @@
 				607FACD21AFB9204008FA782 /* Example for MathpixClient */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				A56AACAD5B919A03CF94FE98 /* Pods */,
-				ECC5FA2F7DF402EEED5507EF /* Frameworks */,
+				6375F0CF4464AF900C356FDB /* Pods */,
+				80566E2AE8260841571ACF57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,22 +148,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		A56AACAD5B919A03CF94FE98 /* Pods */ = {
+		6375F0CF4464AF900C356FDB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B4CA1DE593284466B66607D2 /* Pods-MathpixClient_Example.debug.xcconfig */,
-				7C14E1F923D47069F42A9C5F /* Pods-MathpixClient_Example.release.xcconfig */,
-				C5D17DF8144B543A1C962B48 /* Pods-MathpixClient_Tests.debug.xcconfig */,
-				D2E7B30C9BC4FE1277304B32 /* Pods-MathpixClient_Tests.release.xcconfig */,
+				9EBEA002569D5886B1A21143 /* Pods-MathpixClient_Example.debug.xcconfig */,
+				3B58A278D890C508B5BFD66F /* Pods-MathpixClient_Example.release.xcconfig */,
+				6C263ADC95D8B9B2D4088DFC /* Pods-MathpixClient_Tests.debug.xcconfig */,
+				BC94F0CF74DE44075E48DA34 /* Pods-MathpixClient_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		ECC5FA2F7DF402EEED5507EF /* Frameworks */ = {
+		80566E2AE8260841571ACF57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91B269B7B273A16C10B35856 /* Pods_MathpixClient_Example.framework */,
-				70DE88B42EE2F86B77AF7F12 /* Pods_MathpixClient_Tests.framework */,
+				F3F7E21FE8FEE66311F11913 /* Pods_MathpixClient_Example.framework */,
+				C2BB6E652B8557873F4DD022 /* Pods_MathpixClient_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,11 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MathpixClient_Example" */;
 			buildPhases = (
-				6A6DE6F0BA4A923675849620 /* [CP] Check Pods Manifest.lock */,
+				FF9133342C83FDE50739710E /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D28C599B1699A30FF5ECD33C /* [CP] Embed Pods Frameworks */,
+				43610CAC132F7B4C3D1D2409 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,11 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MathpixClient_Tests" */;
 			buildPhases = (
-				2F43BEAABCB121F22AD2FF95 /* [CP] Check Pods Manifest.lock */,
+				6CB8CD52BEF608AA6F766168 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				C2066CC6915FAFCC0B976D31 /* [CP] Embed Pods Frameworks */,
+				5A69AEDEC2EF8D29EA5824B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,46 +276,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2F43BEAABCB121F22AD2FF95 /* [CP] Check Pods Manifest.lock */ = {
+		43610CAC132F7B4C3D1D2409 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+			inputFileListPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathpixClient_Example/Pods-MathpixClient_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MathpixClient/MathpixClient.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MathpixClient_Tests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MathpixClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathpixClient_Example/Pods-MathpixClient_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A6DE6F0BA4A923675849620 /* [CP] Check Pods Manifest.lock */ = {
+		5A69AEDEC2EF8D29EA5824B2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MathpixClient_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2066CC6915FAFCC0B976D31 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MathpixClient_Tests/Pods-MathpixClient_Tests-frameworks.sh",
@@ -322,6 +313,8 @@
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
@@ -331,24 +324,48 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathpixClient_Tests/Pods-MathpixClient_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D28C599B1699A30FF5ECD33C /* [CP] Embed Pods Frameworks */ = {
+		6CB8CD52BEF608AA6F766168 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MathpixClient_Example/Pods-MathpixClient_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MathpixClient/MathpixClient.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MathpixClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"$(DERIVED_FILE_DIR)/Pods-MathpixClient_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathpixClient_Example/Pods-MathpixClient_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9133342C83FDE50739710E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathpixClient_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -492,7 +509,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4CA1DE593284466B66607D2 /* Pods-MathpixClient_Example.debug.xcconfig */;
+			baseConfigurationReference = 9EBEA002569D5886B1A21143 /* Pods-MathpixClient_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -509,7 +526,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C14E1F923D47069F42A9C5F /* Pods-MathpixClient_Example.release.xcconfig */;
+			baseConfigurationReference = 3B58A278D890C508B5BFD66F /* Pods-MathpixClient_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -526,7 +543,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5D17DF8144B543A1C962B48 /* Pods-MathpixClient_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6C263ADC95D8B9B2D4088DFC /* Pods-MathpixClient_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = WSZWGJRE79;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -544,7 +561,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2E7B30C9BC4FE1277304B32 /* Pods-MathpixClient_Tests.release.xcconfig */;
+			baseConfigurationReference = BC94F0CF74DE44075E48DA34 /* Pods-MathpixClient_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = WSZWGJRE79;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
