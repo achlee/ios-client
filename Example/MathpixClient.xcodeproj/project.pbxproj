@@ -156,7 +156,6 @@
 				6C263ADC95D8B9B2D4088DFC /* Pods-MathpixClient_Tests.debug.xcconfig */,
 				BC94F0CF74DE44075E48DA34 /* Pods-MathpixClient_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -520,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -537,7 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
