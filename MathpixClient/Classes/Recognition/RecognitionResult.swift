@@ -10,8 +10,8 @@ import Foundation
 
 
 public struct RecognitionResult {
-    let parsed: NSDictionary?
-    let data: Data?
+    public let parsed: NSDictionary?
+    public let data: Data?
     
     init(data: Data) throws {
         
